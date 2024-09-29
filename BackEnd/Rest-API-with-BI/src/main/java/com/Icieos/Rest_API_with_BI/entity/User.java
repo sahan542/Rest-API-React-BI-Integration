@@ -12,7 +12,7 @@ import org.hibernate.annotations.GeneratorType;
 @AllArgsConstructor
 public class User {
     @Id
-    //@GeneratedValue
+    @GeneratedValue
     private Integer id;
     private String name;
     private Integer age;
