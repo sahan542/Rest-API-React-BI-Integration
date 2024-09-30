@@ -38,6 +38,6 @@ public class TokenController {
         RestTemplate restTemplate = new RestTemplate();
 
         ResponseEntity<String> response = restTemplate.postForEntity(authority, request, String.class);
-        return response;  // Return the token to the frontend
+        return response; 
     }
 }
