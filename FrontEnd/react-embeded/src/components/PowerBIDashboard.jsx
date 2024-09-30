@@ -3,7 +3,7 @@
 import { PowerBIEmbed } from 'powerbi-client-react';
 
 const PowerBIDashboard = () => {
-  /*
+  
   const [accessToken, setAccessToken] = useState(null);
   const reportId = "288af926-2c3b-4702-bbf4-6333f213c921";  
   const embedUrl = "https://app.powerbi.com/reportEmbed?reportId=288af926-2c3b-4702-bbf4-6333f213c921&groupId=8de4c42d-4d1e-4823-a3ed-2c29f99fdbe4&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNPVVRILUVBU1QtQVNJQS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCIsImVtYmVkRmVhdHVyZXMiOnsidXNhZ2VNZXRyaWNzVk5leHQiOnRydWV9fQ%3d%3d";
@@ -34,7 +34,7 @@ const PowerBIDashboard = () => {
   if (!accessToken) {
     return <div>Loading Power BI Dashboard...</div>;
   }
-  */
+  
 
   return (
     <div>
